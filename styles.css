@@ -1,0 +1,39 @@
+* {
+  box-sizing: content-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  color: #ffffffee;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+section {
+  width: 190px;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
